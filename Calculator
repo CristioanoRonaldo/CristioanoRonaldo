@@ -1,0 +1,18 @@
+num_1 = input("Enter the first number: ")
+operator = input("Enter operator(+, -, /, *, ^: ")
+num_2 = input("Enter the second number: ")
+if operator == "+":
+    (add) = float(num_1) + float(num_2)
+    print(add)
+if operator == "-":
+    (subtract) = float(num_1) + float(num_2)
+    print(num_1, "-", num_2, "=", subtract)
+if operator == "*":
+    (multiply) = float(num_1) * float(num_2)
+    print(multiply)
+if operator == "/":
+    (divide) = float(num_1) / float(num_2)
+    print(divide)
+if operator == "^":
+    (power) = float(num_1) ** float(num_2)
+    print(power)
