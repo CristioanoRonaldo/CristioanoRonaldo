@@ -1,0 +1,15 @@
+import random
+print("Hello, welcome to my rock, paper, scissors game")
+moves = ["rock", "paper", "scissors"]
+user_move = input("What is your move? (rock, paper, scissors): ")
+computer_move = random.choice(moves)
+if user_move == computer_move:
+    print("Tie!")
+elif user_move == "rock" and computer_move == "scissors":
+    print("You win! Rock smashes scissors.")
+elif user_move == "paper" and computer_move == "rock":
+    print("You win! Paper covers rock.")
+elif user_move == "scissors" and computer_move == "paper":
+    print("You win! Scissors cuts paper.")
+else:
+    print("Computer wins!")
