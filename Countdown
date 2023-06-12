@@ -1,0 +1,7 @@
+import time
+number_countdown = int(input("Set timer for how much seconds: "))
+while number_countdown > 0:
+    print(number_countdown)
+    number_countdown = number_countdown - 1
+    time.sleep(1)
+print("Timer done!")
